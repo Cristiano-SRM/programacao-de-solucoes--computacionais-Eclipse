@@ -6,12 +6,11 @@ public class estruturaSequencial3PANEL {
 		String dolarValor, dolarUser;
 		dolarValor=JOptionPane.showInputDialog("Qual a cotação atual do dolar? ");
 		dolarUser=JOptionPane.showInputDialog("Quantos dolares você tem? ");
-		Double valordolar=(double) Integer.parseInt(dolarValor);
-		Double valoruser=(double) Integer.parseInt(dolarUser);
-		Double resultado = (valordolar+valoruser);
-		JOptionPane.showInternalMessageDialog(null,"Você tem, em reais: " + resultado);
-		
-		// problema em ler string com virgulas
+		double valorDolar = Double.parseDouble(dolarValor.replace(",", "."));
+		double quantidadeDolares = Double.parseDouble(dolarUser.replace(",", "."));
 
+		double resultado = valorDolar * quantidadeDolares;
+		JOptionPane.showMessageDialog(null, "Você tem, em reais: " + resultado);
+		
 	}
 }
