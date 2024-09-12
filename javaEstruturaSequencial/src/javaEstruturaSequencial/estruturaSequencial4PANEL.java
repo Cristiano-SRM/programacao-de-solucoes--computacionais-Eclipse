@@ -8,7 +8,7 @@ public class estruturaSequencial4PANEL {
 		salario=JOptionPane.showInputDialog("Qual o seu salario? ");
 		int salarioInt=Integer.parseInt(salario);
 		int salarionovo=salarioInt+(salarioInt/4);
-		JOptionPane.showInternalMessageDialog(null,"Seu novo salario com aumetno de 25% é: " + salarionovo);
+		JOptionPane.showInternalMessageDialog(null,"Seu novo salario com aumento de 25% é: " + salarionovo);
 
 	}
 
