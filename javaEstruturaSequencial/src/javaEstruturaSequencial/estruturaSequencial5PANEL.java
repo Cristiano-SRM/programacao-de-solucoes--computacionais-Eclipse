@@ -10,7 +10,7 @@ public class estruturaSequencial5PANEL {
        int DiagMa=Integer.parseInt(Diag_maior);
        int DiagMe=Integer.parseInt(Diag_menor);
        int Area=(DiagMa*DiagMe)/2;
-       JOptionPane.showInternalMessageDialog(null,"A area deste losango é: " + Area);
+       JOptionPane.showMessageDialog(null,"A area deste losango é: " + Area);
 	}
 
 }
