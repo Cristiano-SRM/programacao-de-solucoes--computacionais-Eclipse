@@ -12,8 +12,8 @@ public class estruturaSequencial8PANEL {
       pesoG=pesoInt+((pesoInt*15)/100);
       pesoM=pesoInt-((pesoInt*20)/100);
       
-      JOptionPane.showMessageDialog(null, "Seu peso caso engorde 15% é: %.2f"+pesoG);
-      JOptionPane.showMessageDialog(null,  "Seu peso caso emagreça 20% é: %2.f"+pesoM);
+      JOptionPane.showMessageDialog(null, "Seu peso caso engorde 15% é: "+pesoG);
+      JOptionPane.showMessageDialog(null,  "Seu peso caso emagreça 20% é: "+pesoM);
 	}
 
 }
