@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 public class EstruturaCondicional2PANEL {
 	public static void main(String[] args) {
       String lado1, lado2, lado3;
-     lado1= JOptionPane.showInputDialog("Informe o primeiro lado do triangulo: ");
+     lado1=JOptionPane.showInputDialog("Informe o primeiro lado do triangulo: ");
      lado2=JOptionPane.showInputDialog("Inofrme o segundo lado do triangulo: ");
      lado3=JOptionPane.showInputDialog("Informe o terceiro e ultimo lado do triangulo: ");
      
