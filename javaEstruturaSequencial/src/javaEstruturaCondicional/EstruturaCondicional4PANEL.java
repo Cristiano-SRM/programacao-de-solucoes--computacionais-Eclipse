@@ -1,7 +1,7 @@
 package javaEstruturaCondicional;
 import javax.swing.JOptionPane;
 
-public class EstruturaSequencial4PANEL {
+public class EstruturaCondicional4PANEL {
 
 	public static void main(String[] args) {
      String peso, altura;
